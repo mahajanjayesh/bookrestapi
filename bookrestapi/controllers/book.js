@@ -8,7 +8,7 @@ router.get('/book', function (request, response) {
 });
 
 router.get('/book/:bookId', function (request, response){
-	console.log("Used findOne : " + request.params.bookId);
+	console.log("Used findOne : bookId" + request.params.bookId);
 	var bookId = request.params.bookId;	
 	var returnBook = bookService.getUserById(bookId);
 	response.send(returnBook);
