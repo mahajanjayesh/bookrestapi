@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
 
 app.use('/api', controller);
 
-app.listen(1991, function() {
-	console.log("Application is listening at http://localhost:1991");
+app.listen(2000, function() {
+	console.log("Application is up and running on localhos at 2000 port");
 });
 
