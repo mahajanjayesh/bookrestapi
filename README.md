@@ -1,6 +1,6 @@
-# bookrestapi
+# Book API
 
-Getting MEAN Team-1 Project
+#Getting MEAN Team-1 Project
 
 Step 1:- Download/Clone this repository.
 
