@@ -22,6 +22,7 @@ Step 5:- Open web browser and enter
             3) Add new data using POST HTTP Method
                 
                 Open "POSTMAN" Application in Chrome to use POST API.
+                (If not installed,download it for chrome from:- http://tinyurl.com/getpostmanforchrome)
                 
                 Select POST HTTP Method
                 
@@ -31,9 +32,7 @@ Step 5:- Open web browser and enter
                 
             4) Add Specific Data
                 
-                Two fields for every parameter
-                
-                key and value
+                Two fields (key,value) for every parameter
                 
                 Enter the folling data in fields
                 
@@ -43,6 +42,5 @@ Step 5:- Open web browser and enter
                         authorName      E Balagurusamy
                         bookPublication McGraw Hill
                         bookIsbn        978-0-07-059362-6
-                
-                
+            5) Click Send.
 
