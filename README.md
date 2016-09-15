@@ -1,2 +1,3 @@
 # bookrestapi
-Team-1-book-rest-api
+
+Getting MEAN Team-1 Project
