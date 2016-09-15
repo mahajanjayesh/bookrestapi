@@ -9,8 +9,11 @@ Step 2:- navigate to gettingMean-Team1 folder
 Step 3:-open "bookrestapi" folder
 
 Step 4:- run the folling command in this directory
+
         "node app.js"
+
         Output on Console will be:- Application up and running on localhost at port 2000. 
+
 Step 5:- Open web browser and enter 
         
             1) For all data in JSON format
