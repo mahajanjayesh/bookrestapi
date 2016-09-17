@@ -25,6 +25,6 @@ module.exports.delete = function (bookId) {
 	var retrieveUser = getUserById(bookId);
 	
 	//remove the specific user from the array
-	userModel.book.pop(retrieveUser);
+	bookModel.book.pop(retrieveUser);
 	return null;
 };
