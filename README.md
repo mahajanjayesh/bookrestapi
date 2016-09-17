@@ -8,7 +8,7 @@ Step 2:- navigate to gettingMean-Team1 folder
 
 Step 3:-open "bookrestapi" folder
 
-Step 4:- run the folling command in this directory
+Step 4:- run the following command in this directory
 
         "node app.js"
 
