@@ -21,3 +21,10 @@ module.exports.save = function (book) {
 	bookModel.book.push(book);
 	return book;
 };
+module.exports.delete = function (bookId) {
+	var retrieveUser = getUserById(bookId);
+	
+	//remove the specific user from the array
+	userModel.book.pop(retrieveUser);
+	return null;
+};
