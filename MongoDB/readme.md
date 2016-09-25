@@ -6,14 +6,15 @@ use meandb;
 
 ##Insert Data:-
 
-db.books.insert({"name" : "Cryptography ",
-	"authorName" : "Atul Kahate",
-	"publication" : "McGraw Hill",
-	"isbn" : "978-89-856-45"});
+Command:-db.books.insert({});
+
+How to use:- db.books.insert({"name" : "Cryptography ","authorName" : "Atul Kahate","publication" : "McGraw Hill","isbn" : "978-89-856-45"});
 
 ##Display All Data:-
 
- db.books.find().pretty()
+Command:-db.books.find().pretty()
+
+Output:-
 {
 	"_id" : ObjectId("57de5b95a9721ebc061ebb30"),
 	"name" : "Cryptography ",
