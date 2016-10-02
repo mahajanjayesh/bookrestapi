@@ -1,0 +1,32 @@
+<div>
+    <div class="row">
+	<div class="col-md-12">
+		<button class="btn btn-sm btn-primary pull-right" ng-click="editBook('new')"> Add</button>	
+	</div>
+    </div>	
+    <br/>
+    <table class="table table-stripped table-hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Author</th>
+		<th>Publication</th>
+		<th>ISBN</th>
+            </tr>
+        </thead>
+        <tr>
+            <tbody>
+                <tr ng-repeat="book in books">
+                    <td ng-dblclick="viewBook(book._id)">{{book.name}}</td>
+                    <td ng-dblclick="viewBook(book._id)">{{book.authorName}}</td>
+                    <td ng-dblclick="viewBook(book._id)">{{book.publication}}</td>
+                    <td ng-dblclick="viewBook(book._id)">{{book.isbn}}</td>
+                    <td>
+			<button class="btn btn-xs btn-primary" ng-click="viewBook(book._id)"> View</button>
+			<button class="btn btn-xs btn-info" ng-click="editBook(book._id)"> Edit</button>
+			<button class="btn btn-xs btn-danger" ng-click="deleteBook(book._id)"> Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+    </table>
+</div>

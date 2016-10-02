@@ -1,0 +1,35 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">Users Details</div>
+    <div class="panel-body">
+        <div class="row">
+            <div class=" col-md-6">
+                <label>Book Name :</label>
+                <input type="name" ng-model="book.name" class="form-control">	
+            </div>
+            <div class=" col-md-6">
+                <label>Author Name :</label>
+                <input type="name" ng-model="book.authorName" class="form-control">
+            </div>
+</div>
+<div class="row">
+	<div class=" col-md-6">
+                <label>Publication :</label>
+                <input type="name" ng-model="book.publication" class="form-control">
+         </div>
+	<div class=" col-md-6">
+                <label>ISBN :</label>
+                <input type="name" ng-model="book.isbn" class="form-control">
+        </div>
+</div>
+</div>
+	
+    </div>
+</div>
+<div class="row">
+	<div class= "col-md-12">
+	<button class="btn btn-sm btn-success" ng-show="isNew()" ng-click="saveBook()" >Save</button>
+	<button class="btn btn-sm btn-success" ng-show="!isNew()" ng-click="updateBook()" >Update</button>
+	<button class="btn btn-sm btn-default" ng-click="cancel()" >Cancel</button>
+	</div>
+
+</div>
